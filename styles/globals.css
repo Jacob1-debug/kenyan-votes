@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background:#F5F5F5;
+}
+
+h1 {
+  font-size: var(--base-font-size);
+}
+@font-face {
+  font-family: "Actor Regular";
+  src: url("/font/Actor-Regular.woff");
+  font-weight: 400;
+}
+.Actor_font{
+  font-family: Actor Regular;
+}
+@font-face {
+  font-family: "AllertaStencil Regular";
+  src: url("/font/AllertaStencil-Regular.woff");
+  font-weight: 400;
+}
+.AllertaStencil_font{
+  font-family: AllertaStencil Regular ;
+}
+
+@font-face {
+  font-family: "AdventPro Bold";
+  src: url("/font/AdventPro-Bold.woff");
+  font-weight: 700;
+}
+.AdventPro_font{
+  font-family: AdventPro Bold;
+}
+
+@font-face {
+  font-family: "AbrilFatface Regular";
+  src: url("/font/AbrilFatface-Regular.woff");
+  font-weight: 400;
+}
+.AbrilFatface_font{
+  font-family: AbrilFatface Regular;
+}
+@font-face {
+  font-family: "ABeeZee Italic";
+  src: url("/font/ABeeZee-Italic.woff");
+  font-weight: 400;
+}
+.ABeeZee_font{
+  font-family: ABeeZee Italic;
+}
+@font-face {
+  font-family: " Cabin Bold";
+  src: url("/font/ Cabin-Bold.woff");
+  font-weight: 700;
+}
+.Cabin_font{
+  font-family:Cabin Bold;
+}
+@font-face {
+  font-family:"Allura Regular";
+  src: url("/font/Allura-Regular.woff");
+  font-weight: 400;
+}
+.Allura_font{
+  font-family:Allura Regular;
+}
+@font-face {
+  font-family:"AkayaKanadaka Regular";
+  src: url("/font/AkayaKanadaka-Regular.woff");
+  font-weight: 400;
+}
+.AkayaKanadaka_font{
+  font-family:AkayaKanadaka Regular;
+}
+@font-face {
+  font-family:"LeckerliOne Regular";
+  src: url("/font/LeckerliOne-Regular.woff");
+  font-weight: 400;
+}
+.LeckerliOne_font{
+  font-family:LeckerliOne Regular;
+}
+
+.form-check-input:checked[type=radio]{
+  background: black !important;
+}
